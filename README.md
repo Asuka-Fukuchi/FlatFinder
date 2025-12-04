@@ -1,46 +1,46 @@
-# 🏠 Flat Project
+# 🏠 FlatFinder
 
-A simple website that shows apartment listings along with landlord information (name, email).  
-Users can send and receive messages, and also bookmark/manage favorite flats.
-
----
-
-## 📑 Table of Contents
-
-- [About](#-flat-project)
-- [Skills](#-skills)
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Project Structure](#-project-structure)
-- [How to Run](#-how-to-run)
-- [Contact](#-contact)
+FlatFinder is a web application that connects property owners with renters.
+Users can create, edit, delete, and favorite property listings, as well as send messages to property owners.
 
 ---
 
 ## 🛠 Skills
 
-**Frontend**
+<strong>Frontend: </strong> Angular
 
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
-</p>
+<strong>Backend: </strong> Node.js, Express (developed by my teammate)
 
-**Backend & Tools**
-
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40" height="40"/>
-</p>
+<strong>Database: </strong> MongoDB(chosen by teammate; originally planned as Firebase)
 
 ---
 
+## 👥 Team Structure
+Two-person collaborative project
+- Teammate: Full backend + half of the frontend
+- Me: Remaining half of frontend
+
+---
+
+## 💼 My Responsibilities (Frontend)
+I was responsible for approximately half of the frontend development, including:
+- Property creation, editing, and deletion pages
+- User profile page (display & update)
+- Favorites feature (add / remove / render on UI)
+- Conditional UI behaviors such as:
+   - Hiding the message section for a user’s own listings
+   - Managing the favorites feature
+- Refining my frontend implementation based on feedback to improve data consistency and usability
+
+---
+## 🔄 Project Context
+
+The project was originally planned to use Firebase for simplicity, but the tech stack changed to MongoDB based on my teammate’s preference.
+This resulted in a more complex backend design and required more careful coordination between frontend and backend.
+
+I contributed by adjusting my frontend implementation to match the new API structure and worked closely with my teammate to ensure smooth integration.
+
+---
 ## ✨ Features
 
 - 🏠 View apartment listings with details
@@ -51,10 +51,12 @@ Users can send and receive messages, and also bookmark/manage favorite flats.
 ---
 
 ## 🖼 Screenshots
-
+### Home page
 ![Home Page](frontend/public/screenshots/home.png)
-![Flat Detail](frontend/public/screenshots/all-users.png)
-![Messages](frontend/public/screenshots/flat-detail.png)
+### Admin user's page
+![Admin Page](frontend/public/screenshots/all-users.png)
+### Flat Detail page
+![Flat Detail](frontend/public/screenshots/flat-detail.png)
 
 ---
 
@@ -138,7 +140,13 @@ flat-project/
 
 ---
 
-## 📬 Contact
+##  What I Learned
 
-- Jihye Park — qkrwlgp1526@gmail.com
-- Asuka Fukuchi — afukuchi24@gmail.com
+- How to collaborate in a environment where team members have different preferences and experience levels
+
+- How to refine frontend code based on feedback to improve clarity and maintainability
+
+- Improved ability to handle team-based workflows, communication, and Git collaboration
+
+- Strengthened understanding of frontend–backend integration
+
